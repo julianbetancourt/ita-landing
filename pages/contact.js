@@ -3,37 +3,47 @@ import Input from "../components/ui/Input";
 import Button from "../components/ui/Button";
 import Checkbox from "../components/ui/Checkbox";
 
-export default function GetStarted() {
+export default function Contact() {
   const servicesItems = [
-    "Mobile development",
-    "UI/UX Design",
-    "web development",
-    "SEO",
+    "IT Strategy & Planning",
+    "Cloud & Infrastructure",
+    "Security & Compliance",
+    "General Inquiry",
   ];
 
   return (
     <>
       <Head>
-        <title>Contact us - Blinder</title>
+        <title>Contact Us - Ita Services LLC</title>
       </Head>
       <div className='pt-28 pb-12'>
         <div className='custom-screen text-gray-600'>
           <div className='max-w-lg mx-auto gap-12 justify-between lg:flex lg:max-w-none'>
             <div className='max-w-lg sm:text-center lg:text-left'>
               <h1 className='text-gray-800 text-3xl font-semibold sm:text-4xl'>
-                Talk to a Blinder expert
+                Get in Touch
               </h1>
               <p className='mt-3'>
-                We are here to help. Get in touch with sales our press team and
-                let us know how we can help, or shoot us an email on{" "}
+                We&apos;d love to hear from you. Reach out to discuss how Ita Services LLC can help with your IT consulting needs, or send us an email at{" "}
                 <a
-                  href='mailto:support@blinder.com'
+                  href='mailto:hello@ita-services.co'
                   target='_blank'
                   rel='noreferrer'
                   className='text-indigo-600 hover:text-indigo-400 font-medium duration-150'>
-                  support@blinder.com.
+                  hello@ita-services.co
                 </a>
               </p>
+              <div className='mt-6 space-y-2 text-gray-600'>
+                <p className='font-semibold text-gray-800'>Ita Services LLC</p>
+                <p>30 N Gould St Ste N</p>
+                <p>Sheridan, WY 82801</p>
+                <p>
+                  Phone:{" "}
+                  <a href='tel:+13073571071' className='hover:text-gray-900 duration-150'>
+                    (307) 357-1071
+                  </a>
+                </p>
+              </div>
             </div>
             <div className='flex-1 mt-12 sm:max-w-lg lg:max-w-md lg:mt-0'>
               <form

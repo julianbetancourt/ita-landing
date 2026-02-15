@@ -9,20 +9,20 @@ const CTA = () => {
             <div className="custom-screen">
                 <div className="items-center gap-x-12 lg:flex">
                     <div className="flex-1 sm:hidden lg:block">
-                        <Image src={ctaImage} className="rounded-lg md:max-w-lg" alt="Create Successful Business Models with Our IT Solutions" />
+                        <Image src={ctaImage} className="rounded-lg md:max-w-lg" alt="Ita Services LLC - IT Consulting Solutions" />
                     </div>
                     <div className="max-w-xl mt-6 md:mt-0 lg:max-w-2xl">
                         <h2 className="text-gray-800 text-3xl font-semibold sm:text-4xl">
-                            Create Successful Business Models with Our IT Solutions
+                            Technology Solutions That Drive Business Results
                         </h2>
                         <p className="mt-3 text-gray-600">
-                            Blinder, a software development company, helps to digitize businesses by focusing on client’s business challenges, needs. We value close transparent cooperation and encourage our clients to participate actively in the project development life cycle.
+                            At Ita Services LLC, we partner with businesses to solve complex technology challenges. Our consulting approach focuses on understanding your unique needs, delivering actionable strategies, and supporting implementation every step of the way.
                         </p>
                         <NavLink
-                            href="/get-started"
+                            href="/contact"
                             className="inline-block mt-4 font-medium text-sm text-white bg-indigo-600 hover:bg-indigo-700 active:bg-indigo-800"
                         >
-                            Get started
+                            Get in touch
                         </NavLink>
                     </div>
                 </div>

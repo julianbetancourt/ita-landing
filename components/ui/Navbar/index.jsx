@@ -1,7 +1,6 @@
 import Link from "next/link"
 import { useRouter } from "next/router"
 import { useEffect, useState } from "react"
-import Brand from "../Brand"
 import NavLink from "../NavLink"
 
 const Navbar = () => {
@@ -9,9 +8,9 @@ const Navbar = () => {
   const { events } = useRouter()
 
   const navigation = [
-    { title: "Features", path: "#features" },
-    { title: "Our toolkit", path: "#toolkit" },
-    { title: "Testimonials", path: "#testimonials" },
+    { title: "Services", path: "/#services" },
+    { title: "About", path: "/about" },
+    { title: "Contact", path: "/contact" },
   ]
 
   useEffect(() => {
@@ -38,9 +37,11 @@ const Navbar = () => {
       >
         <div className="custom-screen items-center mx-auto md:flex">
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
-            <h1 className="text-sm text-gray-800 font-bold mx-auto sm:text-3xl">
-              Ita services
-            </h1>
+            <Link href="/">
+              <h1 className="text-sm text-gray-800 font-bold mx-auto sm:text-3xl">
+                Ita Services
+              </h1>
+            </Link>
             <div className="md:hidden">
               <button
                 role="button"
@@ -97,10 +98,10 @@ const Navbar = () => {
               })}
               <li>
                 <NavLink
-                  href="/get-started"
+                  href="/contact"
                   className="block font-medium text-sm text-white bg-gray-800 hover:bg-gray-600 active:bg-gray-900 md:inline"
                 >
-                  Let's work
+                  Contact Us
                 </NavLink>
               </li>
             </ul>

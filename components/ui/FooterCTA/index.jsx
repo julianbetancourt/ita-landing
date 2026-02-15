@@ -6,16 +6,16 @@ const FooterCTA = () => (
         <div className="custom-screen">
             <div className="max-w-2xl mx-auto text-center">
                 <h2 className="text-gray-800 text-3xl font-semibold sm:text-4xl">
-                    Get started with Blinder today
+                    Ready to optimize your IT infrastructure?
                 </h2>
                 <p className="mt-3 text-gray-600">
-                    Hire experts to create your next idea, follow best practices, remove roadblocks, and delivery on schedule.
+                    Let Ita Services LLC help you build a technology strategy that supports your business goals. Get in touch for a consultation.
                 </p>
                 <NavLink
-                    href="/get-started"
+                    href="/contact"
                     className="mt-4 inline-block font-medium text-sm text-white bg-gray-800 hover:bg-gray-600 active:bg-gray-900"
                 >
-                    Start building
+                    Schedule a Consultation
                 </NavLink>
             </div>
         </div>
