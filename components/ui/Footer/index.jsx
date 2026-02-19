@@ -23,6 +23,16 @@ const Footer = () => (
                         </p>
                     </div>
                     <div className="space-y-2 text-gray-600">
+                        <h3 className="text-gray-800 font-semibold">Products</h3>
+                        <ul className="space-y-1">
+                            <li>
+                                <Link href="/odontics" className="hover:text-gray-900 duration-150">
+                                    Odontics
+                                </Link>
+                            </li>
+                        </ul>
+                    </div>
+                    <div className="space-y-2 text-gray-600">
                         <h3 className="text-gray-800 font-semibold">Legal</h3>
                         <ul className="space-y-1">
                             <li>

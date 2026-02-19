@@ -9,6 +9,7 @@ const Navbar = () => {
 
   const navigation = [
     { title: "Services", path: "/#services" },
+    { title: "Odontics", path: "/odontics" },
     { title: "About", path: "/about" },
     { title: "Contact", path: "/contact" },
   ]
